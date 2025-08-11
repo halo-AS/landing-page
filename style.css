@@ -2,7 +2,6 @@ body{
     margin: 0;
 }
 
-
 .header,
 .site-hook {
     display: flex;
@@ -14,6 +13,8 @@ body{
 .header-img{
     margin-right: auto;
     margin-left: 200px;
+    width: 30px;
+    height: 30px;
 }
 
 .header ul{
@@ -43,6 +44,8 @@ body{
 
 .about-img {
     flex-shrink: 0;
+    width: 550px;
+    height: 350px;
 }
 
 .title,
@@ -69,4 +72,15 @@ body{
     color: white;
     font-size: 12px;
     height: 30px;
+}
+
+.info-title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
 }
