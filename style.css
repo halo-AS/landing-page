@@ -74,6 +74,10 @@ body{
     height: 30px;
 }
 
+.info-section {
+    display: flex;
+}
+
 .info-title {
     text-align: center;
     font-size: 36px;
