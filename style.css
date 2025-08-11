@@ -41,6 +41,10 @@ body{
     max-width: 375px;
 }
 
+.about-img {
+    flex-shrink: 0;
+}
+
 .title,
 .subtext {
     margin: 4px;
